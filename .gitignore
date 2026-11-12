@@ -1,0 +1,22 @@
+# Gradle / Android build output
+.gradle/
+build/
+buildSrc/.gradle/
+buildSrc/build/
+.kotlin/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Packaged output (the APK goes on the GitHub Releases page, not in the repo)
+dist/
+
+# OS
+.DS_Store
+
+# Signing secrets: never commit these
+keystore.properties
+*.jks
+*.keystore

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ClapTune</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Listening</string>
+    <string name="notif_title">ClapTune</string>
+    <string name="notif_listening">Listening for a double clap</string>
+    <string name="notif_playing">Playing your song</string>
+    <string name="notif_retrying">Microphone unavailable, retrying…</string>
+    <string name="action_stop_listening">Stop listening</string>
+    <string name="action_stop_music">Stop music</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Setup needed</string>
+    <string name="setup_plugged">Keep the phone plugged in so it can listen all night.</string>
+    <string name="setup_mic">Microphone permission</string>
+    <string name="setup_notifications">Notification permission</string>
+    <string name="setup_battery">Disable battery optimization</string>
+    <string name="setup_grant">Grant</string>
+
+    <!-- Main -->
+    <string name="listen_toggle">Listen for claps</string>
+    <string name="status_off">Not listening</string>
+    <string name="status_listening">Listening</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_retrying">Microphone busy, retrying…</string>
+    <string name="status_missing_permission">Missing microphone permission</string>
+    <string name="song_title">Tomorrow\'s song</string>
+    <string name="song_none">No song chosen yet.</string>
+    <string name="song_change">Change song</string>
+    <string name="song_test">Test play</string>
+    <string name="song_stop">Stop music</string>
+    <string name="song_missing_notice">Double clap heard, but no song is saved. Choose one first.</string>
+    <string name="calib_title">Clap test</string>
+    <string name="calib_hint">Turn listening on to see the live level.</string>
+    <string name="calib_clap">Clap detected!</string>
+    <string name="calib_sensitivity">Sensitivity (right = easier to trigger)</string>
+    <string name="settings_title">Settings</string>
+    <string name="set_min_gap">Minimum gap between claps</string>
+    <string name="set_max_gap">Maximum gap between claps</string>
+    <string name="set_cooldown">Cooldown after playing</string>
+    <string name="set_fade">Fade-in time</string>
+    <string name="set_triple">Require three claps</string>
+    <string name="set_loop">Loop the song</string>
+    <string name="set_max_volume">Set media volume to max when playing</string>
+    <string name="footer_note">Personal use only. Downloading YouTube audio may violate YouTube\'s terms of service.</string>
+
+    <!-- Search -->
+    <string name="search_title">Choose a song</string>
+    <string name="search_hint">Search YouTube</string>
+    <string name="search_go">Search</string>
+    <string name="search_empty">No results.</string>
+    <string name="link_title">Or paste a link</string>
+    <string name="link_hint">youtube.com or youtu.be link</string>
+    <string name="link_use">Use this link</string>
+    <string name="confirm_title">Set as tomorrow\'s song?</string>
+    <string name="confirm_yes">Download</string>
+    <string name="download_title">Downloading…</string>
+    <string name="download_failed">Download failed</string>
+
+    <!-- Errors -->
+    <string name="err_network">No network connection. Your previous song is still saved.</string>
+    <string name="err_unavailable">This video is unavailable (age-restricted, private or blocked in your region). Your previous song is still saved.</string>
+    <string name="err_extractor">YouTube changed something. Update the app or its NewPipeExtractor library. Your previous song is still saved.</string>
+    <string name="err_no_audio">No usable audio stream was found for this video.</string>
+    <string name="err_bad_link">That doesn\'t look like a YouTube link.</string>
+</resources>
